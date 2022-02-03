@@ -47,7 +47,7 @@
 <section class="all-order">
     <div class="container title-button">
     <h1 class="order-title"> ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-<button class="order" type="button">Заказать услугу</button>
+<button class="order" type="button" data-modal-open >Заказать услугу</button>
 </div>
 </section>
 
@@ -103,9 +103,31 @@
     <div class="container">
     <h2 class="section-title">Чем мы занимаемся</h2>
     <ul class="our-work-set">
-         <li class="section-card"><img src="images/img1.jpg" alt="человек работает" width="370" height="294"></li>
-         <li class="section-card"><img src="images/img2.jpg" alt="монитор" width="370" height="294"></li>
-         <li class="section-card"><img src="images/img3.jpg" alt="спектр" width="370" height="294"></li>
+         <li class="section-card">
+             <div>
+                <img src="images/img1.jpg" alt="человек работает" width="370" height="294">
+                    <div class="section-item-name">
+                     <p class="item-name">Десктопные приложения</p>
+                    </div>
+             </div>
+        </li>
+         <li class="section-card">
+             <div>
+                 <img src="images/img2.jpg" alt="монитор" width="370" height="294">
+        <div class="section-item-name">
+            <p class="item-name">Мобильные приложения</p>
+        </div>
+        </div>
+    </li>
+         <li class="section-card">
+             <div>
+                 <img src="images/img3.jpg" alt="спектр" width="370" height="294">
+                
+                <div class="section-item-name">
+                    <p class="item-name">Дизайнерские решения</p>
+                </div>
+                </div>
+            </li>
     </ul>
     </div>
 </section>
@@ -341,10 +363,16 @@
             </div>
       </div>
     </footer>
-<div class="backdrop is-hidden">
+<div class="backdrop is-hidden" data-modal>
     <div class="modal">    
         <p></p>  
-        <button class="btn-modal" type="button"></button>
+        <button class="btn-modal" type="button" data-modal-close>
+                <svg class="bnt-svg-close">
+                <use href="./images/sprite-hw4.svg#icon-close" width="11" height="11"></use>
+                 </svg>
+        
+           
+        </button>
     </div>
 
 </div> 
