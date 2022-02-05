@@ -103,6 +103,8 @@ nav {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current {
@@ -148,6 +150,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
@@ -423,6 +427,9 @@ div h3 {
   align-content: center;
   align-items: center;
   color: #afb1b8;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-net-item {
@@ -461,6 +468,9 @@ div h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients:hover,
@@ -521,6 +531,8 @@ div h3 {
   color: var(--main-color-text-darkbackground);
 
   display: block;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contact {
@@ -534,6 +546,8 @@ div h3 {
   display: block;
   min-width: 231px;
   margin-top: 9px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-nets-links {
@@ -566,6 +580,8 @@ div h3 {
   align-items: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-svg-item {
@@ -578,7 +594,6 @@ div h3 {
 .footer-link-svg:focus,
 .footer-link-svg:hover {
   background-color: #2196f3;
-  border-radius: 50%;
 }
 
 .footer-nets {
@@ -607,6 +622,11 @@ div h3 {
   padding: 6px 22px;
   min-width: 75px;
   text-align: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:focus,
@@ -671,6 +691,8 @@ div h3 {
 .shadow {
   display: block;
   text-decoration: none;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .shadow:hover,
