@@ -593,8 +593,7 @@ div h3 {
 
 .footer-svg-item {
   fill: var(--main-color-text-darkbackground);
-  width: 20px;
-  height: 20px;
+
   display: flex;
 }
 
@@ -794,20 +793,20 @@ div h3 {
 }
 
 .btn-modal {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: var(--main-color-text-darkbackground);
   text-align: center;
+  margin-left: auto;
+  margin-top: 8px;
 }
 
-.bth-svg-close {
+.btn-modal-svg {
   display: flex;
   justify-content: center;
   align-items: center;
